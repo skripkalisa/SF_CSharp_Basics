@@ -20,4 +20,4 @@
 3. Вызов методов из метода Main.
 
 
-![Progran output screenshot](https://github.com/skripkalisa/SF_CSharp_Basics/blob/Module_5/App1/Project_5.png)
+![Program output screenshot](https://github.com/skripkalisa/SF_CSharp_Basics/blob/Module_5/App1/Project_5.png)
