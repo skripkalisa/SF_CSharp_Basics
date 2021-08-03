@@ -6,8 +6,7 @@ namespace App1
     {
         static void Main(string[] args)
         {
-            //(string firstName, string lastName, int age, bool hasPets, int petsNum, string[] petNames, int colorsNum, string[] favColors) poll;
-            //var poll = Tuple.Create<string, string, int, int, string[], int, string[]>;
+
             var poll = pollUser();
             printPoll(poll);
             //Console.ReadKey();
