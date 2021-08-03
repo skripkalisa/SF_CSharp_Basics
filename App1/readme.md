@@ -18,4 +18,6 @@
     - Корректный ввод: ввод числа типа int больше 0.
 2. Метод, который принимает кортеж из предыдущего шага и показывает на экран данные.
 3. Вызов методов из метода Main.
-![Progran output screenshot][https://github.com/skripkalisa/SF_CSharp_Basics/blob/Module_5/App1/Project_5.png]
+
+
+![Progran output screenshot](https://github.com/skripkalisa/SF_CSharp_Basics/blob/Module_5/App1/Project_5.png)
