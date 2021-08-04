@@ -1,6 +1,6 @@
 using System;
 
-namespace App1
+namespace Mpd5
 {
   class Program
   {
@@ -37,18 +37,22 @@ namespace App1
             break;
         }
         Console.WriteLine("Их клички:");
-        for (int i = 0; i < poll.Item4; i++)
-          Console.Write("'" + poll.Item5[i] + "' ");
+        // for (int i = 0; i < poll.Item4; i++)
+        //   Console.WriteLine("'" + poll.Item5[i] + "' ");
+        foreach (var pet in poll.Item5)
+          Console.WriteLine("'" + pet + "' ");
       }
       if (poll.Item6 != 0)
       {
-        Console.WriteLine("\nВаши любимые цвета: ");
-        for (int i = 0; i < poll.Item6; i++)
-          Console.Write("'" + poll.Item7[i] + "' ");
+        Console.WriteLine("Ваши любимые цвета: ");
+        // for (int i = 0; i < poll.Item6; i++)
+        // Console.Write("'" + poll.Item7[i] + "' ");
+        foreach (var color in poll.Item7)
+          Console.WriteLine("'" + color + "' ");
       }
       else
       {
-        Console.WriteLine("\nУ Вас нет любимых цветов.");
+        Console.WriteLine("У Вас нет любимых цветов.");
       }
     }
 
@@ -84,8 +88,7 @@ namespace App1
       Console.WriteLine("Приятно познакомиться, " + firstName);
       Console.WriteLine("Давайте подведём итог нашему общениию. ");
       var pollResult = Tuple.Create(firstName, lastName, age, petsNum, petNames, colorsNum, favcolors);
-      //Console.WriteLine(pollResult);
-      //printPoll(pollResult);
+
       return pollResult;
     }
     static string[] getArray(int length)
