@@ -85,7 +85,7 @@ namespace Mpd5
       if (colorsNum != 0)
         Console.WriteLine("Перечислите Ваши любимые цвета: ");
       string[] favcolors = getArray(colorsNum);
-      Console.WriteLine("Приятно познакомиться, " + firstName);
+      Console.WriteLine("Приятно познакомиться, " + firstName + "!");
       Console.WriteLine("Давайте подведём итог нашему общениию. ");
       var pollResult = Tuple.Create(firstName, lastName, age, petsNum, petNames, colorsNum, favcolors);
 
